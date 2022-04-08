@@ -10,8 +10,4 @@ def load_data(path, header):
 
 if __name__ == '__main__':
     data = load_data("data/marks.txt", None)
-
-    X = data.iloc[:, :-1]
-
-    y = data
     print("This function will be updated to run an image thru an edge detection CNN")
